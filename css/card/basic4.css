@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: auto auto;
+}
+body {
+  background-color: #eee;
+}
+.card {
+  margin: 40px auto;
+  width: 353.6px;
+  height: 223px;
+  position: relative;
+  border: 1px solid #a89c9c38;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 5px -4px #000000;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  
+}
+.card-body {
+  z-index: 1;
+}
